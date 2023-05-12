@@ -24,6 +24,11 @@
     font-weight: 600;
 }
 
+
+.nav-boton-contacto>i {
+    margin-left: 5px;
+}
+
 /* Promociones */
 .promociones {
     padding: 40px 0 60px 0px;
@@ -230,6 +235,11 @@
     width: 36%;
     font-size: 1.12rem;
     font-weight: 400;
+    transition: 1s ease-in;
+}
+
+.contacto .horario>p:hover {
+    color: black;
 }
 
 .contacto .contacto-botones a {
@@ -248,6 +258,7 @@
 .contacto .contacto-botones {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     width: 8%;
 }
@@ -334,16 +345,18 @@ footer {
     .contacto .mapa {
         width: 280px;
         height: 220px;
+        margin-bottom: 30px;
     }
 
     .contacto .mapa-frame {
-        width: 280px;
+        width: 100%;
         max-height: 100%;
     }
 
     .contacto .horario {
         width: 90%;
         padding: 0 5%;
+        margin-bottom: 20px;
     }
 
     .contacto .contacto-botones {
