@@ -1,0 +1,348 @@
+/* Aspectos generales */
+
+.seccion-titulo {
+    font-size: 2.1rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.seccion-oscura {
+    color: white;
+}
+
+/* NavBar */
+.navbar {
+    background-color: #FFC300;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+/* Promociones */
+.promociones {
+    padding: 40px 0 60px 0px;
+}
+
+#carrusel-promociones {
+    width: 100%;
+    height: 350px;
+}
+
+.promociones .carousel-item>img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Quienes somos */
+.quienes-somos {
+    padding: 40px;
+    background-color: #001D3D;
+}
+
+/* Servicios */
+.servicios {
+    padding: 40px;
+}
+
+.aparatos {
+    padding-top: 40px;
+}
+
+.servicios .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.servicios .columna:hover {
+    color: white;
+    background-color: #001933;
+}
+
+.servicios i {
+    font-size: 5.2rem;
+    color: #e84d41;
+    background-color: #001D3D;
+    padding: 0px 20px;
+    border-radius: 50%;
+}
+
+.aparatos i {
+    color: #7ade30;
+    padding: 0px 19px;
+}
+
+.servicios-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Marcas */
+.marcas {
+    padding: 40px 0;
+    margin: 25px 0;
+}
+
+.marcas .seccion-titulo {
+    padding-bottom: 50px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marcas * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marcas {
+    overflow: hidden;
+    background-color: white;
+}
+
+.contenedor-logos {
+    white-space: nowrap;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 13.5s slide infinite linear;
+}
+
+/*.marcas:hover .logos-slide */
+.contenedor-logos:hover .logos-slide {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.logos-slide img {
+    height: 150px;
+    margin: 0 26px;
+    user-select: none;
+}
+
+/* Reseñas */
+.resenas {
+    padding: 35px;
+    background-color: #003566;
+}
+
+#carrusel-resenas {
+    width: 450px;
+    margin: auto;
+}
+
+.resenas .card {
+    border: none;
+    width: 100%;
+    height: 300px;
+    max-width: 18rem;
+    margin: auto;
+    background-color: #003566;
+}
+
+.resenas .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.resena-imagen {
+    width: 120px;
+    padding: 10px 0 5px 0;
+}
+
+.resena-estrellas {
+    max-width: 150px;
+    padding-bottom: 8px;
+}
+
+.resena-nombre {
+    font-size: 1.15rem;
+    padding-bottom: 7.5px;
+}
+
+.resena-subtitulo {
+    font-size: 1.18rem;
+    color: rgb(143, 140, 140);
+    padding-bottom: 6px;
+}
+
+.resena-texto {
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+/* Contacto */
+
+.contacto {
+    padding: 35px;
+    margin-top: 60px;
+    background-color: #FFC300;
+}
+
+.contacto .container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto .mapa {
+    width: 56%;
+    height: 100%;
+    padding: 30px;
+}
+
+.contacto .mapa-frame {
+    width: 90%;
+    height: 350px;
+}
+
+.contacto .horario {
+    width: 36%;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.contacto .contacto-botones a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.contacto .contacto-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.contacto .contacto-botones i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.contacto .contacto-botones a:hover {
+    background-color: white;
+    /*border: 2px solid #FFC300;*/
+}
+
+.contacto .contacto-botones a:hover i {
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #001933;
+    color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 761px) {
+    #carrusel-resenas {
+        width: 100%;
+    }
+
+    .contacto .mapa {
+        padding: 0 20px;
+    }
+
+    .contacto .horario {
+        font-size: 0.95rem;
+    }
+}
+
+
+@media screen and (max-width: 451px) {
+    html {
+        font-size: 14.5px;
+    }
+
+    .seccion-titulo {
+        font-size: 1.8rem;
+    }
+
+    .logos-slide img {
+        height: 100px;
+        margin: 0 20px;
+        user-select: none;
+    }
+
+    .resenas {
+        padding: 25px 5px 5px 5px;
+    }
+
+    .resenas .seccion-titulo {
+        padding-bottom: 0px;
+    }
+
+    .resenas .card {
+        height: 340px;
+    }
+
+    .resenas .card-body {
+        padding: 0 32px;
+    }
+
+    .contacto {
+        padding: 40px 0%;
+    }
+
+    .contacto .container {
+        flex-direction: column;
+    }
+
+    .contacto .mapa {
+        width: 280px;
+        height: 220px;
+    }
+
+    .contacto .mapa-frame {
+        width: 280px;
+        max-height: 100%;
+    }
+
+    .contacto .horario {
+        width: 90%;
+        padding: 0 5%;
+    }
+}
