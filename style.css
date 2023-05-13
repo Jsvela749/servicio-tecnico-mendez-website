@@ -220,6 +220,22 @@
     margin: 40px 0;
 }
 
+.reparacion .ventajas li {
+    font-size: 1.1rem;
+    font-weight: 480;
+}
+
+.reparacion .ventajas li:hover {
+    text-shadow: rgb(99, 98, 97) 0.5px 0 8px;
+}
+
+.reparacion .cotizacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .reparacion .contenedor-boton {
     display: flex;
     align-items: center;
@@ -351,6 +367,10 @@ footer {
 @media screen and (max-width: 761px) {
     #carrusel-resenas {
         width: 100%;
+    }
+
+    .reparacion .ventajas {
+        margin-bottom: 40px;
     }
 
     .contacto .mapa {
