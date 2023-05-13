@@ -6,6 +6,13 @@
     text-align: center;
 }
 
+.seccion-subtitulo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
 .seccion-oscura {
     color: white;
 }
@@ -46,6 +53,7 @@
 
 /* Quienes somos */
 .quienes-somos {
+    margin-top: 40px;
     padding: 40px;
     background-color: #001D3D;
 }
@@ -207,6 +215,35 @@
     padding-bottom: 15px;
 }
 
+/* Reparacion */
+.reparacion {
+    margin: 40px 0;
+}
+
+.reparacion .contenedor-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reparacion .boton-whatsapp {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 280px;
+    height: 55px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.reparacion .boton-whatsapp i {
+    margin-left: 6px;
+}
+
+.reparacion .boton-whatsapp:hover {
+    color: rgb(6, 167, 6);
+}
+
 /* Contacto */
 
 .contacto {
@@ -237,7 +274,7 @@
 .contacto .horario {
     width: 36%;
     font-size: 1.12rem;
-    font-weight: 400;
+    font-weight: 450;
     transition: 1s ease-in;
 }
 
