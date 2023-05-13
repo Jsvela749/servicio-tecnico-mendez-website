@@ -390,6 +390,12 @@ footer {
         padding: 0 32px;
     }
 
+
+    .reparacion .boton-whatsapp {
+        width: 210px;
+        height: 55px;
+    }
+
     .contacto {
         padding: 40px 0%;
     }
