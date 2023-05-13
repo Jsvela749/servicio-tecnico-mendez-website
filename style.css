@@ -24,9 +24,8 @@
     font-weight: 600;
 }
 
-
 .nav-boton-contacto>i {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 /* Promociones */
@@ -49,6 +48,10 @@
 .quienes-somos {
     padding: 40px;
     background-color: #001D3D;
+}
+
+.quienes-somos p {
+    font-size: 1.1rem;
 }
 
 /* Servicios */
@@ -288,13 +291,29 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 993px) {
+    .contacto .mapa {
+        /*width: 45%;*/
+        padding: 15px 20px;
+    }
+
+    .contacto .horario {
+        width: 45%;
+        padding-right: 10px;
+    }
+
+    .contacto .contacto-botones {
+        width: 10%;
+    }
+}
+
 @media screen and (max-width: 761px) {
     #carrusel-resenas {
         width: 100%;
     }
 
     .contacto .mapa {
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     .contacto .horario {
