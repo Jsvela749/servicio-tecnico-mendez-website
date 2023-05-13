@@ -227,6 +227,10 @@
 }
 
 .reparacion .boton-whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     color: white;
     border-radius: 15px;
@@ -389,7 +393,6 @@ footer {
     .resenas .card-body {
         padding: 0 32px;
     }
-
 
     .reparacion .boton-whatsapp {
         width: 210px;
