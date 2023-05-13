@@ -394,6 +394,10 @@ footer {
         padding: 0 32px;
     }
 
+    .reparacion {
+        padding: 0 15px;
+    }
+
     .reparacion .boton-whatsapp {
         width: 210px;
         height: 55px;
