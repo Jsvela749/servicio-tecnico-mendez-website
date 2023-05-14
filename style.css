@@ -419,7 +419,7 @@ footer {
     }
 
     .reparacion .ventajas {
-        margin-bottom: 60px;
+        margin-bottom: 45px;
     }
 
     .reparacion .boton-whatsapp {
@@ -439,6 +439,7 @@ footer {
         width: 280px;
         height: 220px;
         margin-bottom: 30px;
+        padding: 0;
     }
 
     .contacto .mapa-frame {
