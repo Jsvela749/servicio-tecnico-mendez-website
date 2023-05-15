@@ -395,7 +395,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
     * {
         font-size: 19px;
     }
