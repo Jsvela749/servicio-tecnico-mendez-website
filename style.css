@@ -19,7 +19,7 @@
 
 /* NavBar */
 .navbar {
-    background-color: #44384C;
+    background-color: #2E2633;
 }
 
 .navbar-brand {
@@ -111,7 +111,7 @@
 .quienes-somos {
     margin-top: 40px;
     padding: 40px;
-    background-color: #2E2633;
+    background-color: #44384C;
 }
 
 .quienes-somos p {
@@ -149,15 +149,7 @@
 
 .aparatos .columna:hover {
     color: white;
-    background-color: #3F3E59;
-}
-
-.servicios i {
-    font-size: 5.2rem;
-    color: #e84d41;
-    background-color: #001D3D;
-    padding: 0px 20px;
-    border-radius: 50%;
+    background-color: #44384C;
 }
 
 .servicios-titulo {
@@ -227,7 +219,7 @@
 /* Reseñas */
 .resenas {
     padding: 35px;
-    background-color: #2E2633;
+    background-color: #44384C;
 }
 
 #carrusel-resenas {
@@ -241,7 +233,7 @@
     height: 300px;
     max-width: 18rem;
     margin: auto;
-    background-color: #2E2633;
+    background-color: #44384C;
 }
 
 .resenas .card-body {
@@ -334,7 +326,7 @@
 .contacto {
     padding: 35px;
     margin-top: 60px;
-    background-color: #2E2633;
+    background-color: #44384C;
 }
 
 .contacto .container {
@@ -401,7 +393,7 @@
 }
 
 .contacto .contacto-botones a:hover i {
-    color: #2E2633;
+    color: #44384C;
 }
 
 /* Footer */
@@ -409,7 +401,7 @@
 footer {
     padding: 10px;
     text-align: center;
-    background-color: #27202c;
+    background-color: #2E2633;
     color: white;
     user-select: none;
 }
